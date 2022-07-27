@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">easyTable</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hookah">HOOKAH</string>
+    <string name="bars">Bars</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="cafes">Cafes</string>
+</resources>

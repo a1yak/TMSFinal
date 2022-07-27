@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homePage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FragmentHomePage"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingBottom="40dp"
+        android:text="Make Your reservation now"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/rest_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_restaurant"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp">
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/restaurants"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/design_default_color_primary_variant"
+                >
+
+            </Button>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            <ImageView
+                android:id="@+id/bar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bar"
+                android:paddingLeft="15dp"
+                android:paddingBottom="20dp">
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_bars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bars"
+                android:textSize="10dp"
+                android:backgroundTint="@color/design_default_color_primary_variant"
+                android:textColor="@color/white"
+                >
+            </Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/cafe_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_caf"
+                android:paddingLeft="15dp"
+                android:paddingBottom="20dp">
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_cafes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cafes"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/design_default_color_primary_variant">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/shisha_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shisha"
+                android:paddingLeft="15dp"
+                android:paddingBottom="20dp">
+            </ImageView>
+
+            <Button
+                android:id="@+id/btn_hookah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hookah"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/design_default_color_primary_variant">
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
