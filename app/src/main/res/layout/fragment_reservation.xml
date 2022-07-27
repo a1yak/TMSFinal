@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FragmentReservationDate"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tv_pickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Pick your date:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp"
+        android:typeface="serif" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="277dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submitDate"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:text="Submit"></com.google.android.material.button.MaterialButton>
+</LinearLayout>
+
+
+
+

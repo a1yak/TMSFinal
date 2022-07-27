@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentReservationTime"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:id="@+id/tv_pickTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Pick your time:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="349dp"
+            android:layout_height="360dp"
+            android:amPmTextColor="@color/black"
+            android:headerAmPmTextAppearance="@color/black"
+            android:headerBackground="#808080"
+            android:numbersTextColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>
