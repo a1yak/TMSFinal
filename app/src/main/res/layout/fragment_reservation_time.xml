@@ -4,7 +4,7 @@
     android:id="@+id/linear"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentReservationTime"
+    tools:context=".fragments.FragmentReservationTime"
     android:background="@drawable/background"
     android:gravity="center">
 
@@ -24,7 +24,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="24sp" />
 
-        <TimePicker
+       <TimePicker
             android:id="@+id/timePicker"
             android:layout_width="349dp"
             android:layout_height="360dp"
@@ -32,6 +32,13 @@
             android:headerAmPmTextAppearance="@color/black"
             android:headerBackground="#808080"
             android:numbersTextColor="@color/black" />
+        <Button
+            android:id="@+id/btn_submitTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit">
+        </Button>
     </LinearLayout>
+
 
 </LinearLayout>

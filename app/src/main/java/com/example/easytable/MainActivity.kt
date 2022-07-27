@@ -2,6 +2,7 @@ package com.example.easytable
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.easytable.fragments.FragmentHomePage
 
 class MainActivity : AppCompatActivity() {
 
