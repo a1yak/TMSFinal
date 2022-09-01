@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".FragmentReservationDate"
+    tools:context=".fragments.FragmentReservationDate"
     android:background="@drawable/background">
 
     <TextView
@@ -18,19 +18,18 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="34sp"
         android:typeface="serif" />
-
-    <DatePicker
+   <!-- <DatePicker
         android:id="@+id/datePicker"
         android:layout_width="wrap_content"
         android:layout_height="277dp"
         android:calendarViewShown="false"
-        android:datePickerMode="spinner" />
+        android:datePickerMode="spinner" /> -->
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_submitDate"
         android:layout_width="176dp"
         android:layout_height="61dp"
-        android:text="Submit"></com.google.android.material.button.MaterialButton>
+        android:text="Submit"></Button>
 </LinearLayout>
 
 

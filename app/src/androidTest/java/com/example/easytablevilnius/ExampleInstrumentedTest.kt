@@ -1,4 +1,4 @@
-package com.example.easytable
+package com.example.easytablevilnius
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

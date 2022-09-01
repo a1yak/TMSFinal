@@ -1,7 +1,8 @@
-package com.example.easytable
+package com.example.easytablevilnius
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.easytablevilnius.fragments.FragmentHomePage
 
 class MainActivity : AppCompatActivity() {
 

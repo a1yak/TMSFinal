@@ -1,4 +1,4 @@
-package com.example.easytable
+package com.example.easytablevilnius
 
 import org.junit.Test
 
