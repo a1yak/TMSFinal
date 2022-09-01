@@ -1,4 +1,4 @@
-package com.example.easytable.fragments
+package com.example.easytablevilnius.fragments
 
 import android.app.Dialog
 import android.app.TimePickerDialog
@@ -12,9 +12,9 @@ import android.widget.TimePicker
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResultListener
-import com.example.easytable.Database.AppDatabase
-import com.example.easytable.Models.Reservation
-import com.example.easytable.databinding.FragmentReservationTimeBinding
+import com.example.easytablevilnius.Database.AppDatabase
+import com.example.easytablevilnius.Models.Reservation
+import com.example.easytablevilnius.databinding.FragmentReservationTimeBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

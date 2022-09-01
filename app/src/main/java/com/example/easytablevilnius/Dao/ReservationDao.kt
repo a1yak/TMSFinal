@@ -1,7 +1,7 @@
-package com.example.easytable.Dao
+package com.example.easytablevilnius.Dao
 
 import androidx.room.*
-import com.example.easytable.Models.Reservation
+import com.example.easytablevilnius.Models.Reservation
 
 @Dao
 interface ReservationDao {

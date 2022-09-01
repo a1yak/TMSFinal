@@ -1,4 +1,4 @@
-package com.example.easytable.Dao
+package com.example.easytablevilnius.Dao
 
 import androidx.room.Dao
 

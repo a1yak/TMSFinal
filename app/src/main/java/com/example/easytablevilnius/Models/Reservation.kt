@@ -1,4 +1,4 @@
-package com.example.easytable.Models
+package com.example.easytablevilnius.Models
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

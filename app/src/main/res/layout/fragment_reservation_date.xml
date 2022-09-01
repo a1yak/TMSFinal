@@ -18,12 +18,12 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="34sp"
         android:typeface="serif" />
-    <DatePicker
+   <!-- <DatePicker
         android:id="@+id/datePicker"
         android:layout_width="wrap_content"
         android:layout_height="277dp"
         android:calendarViewShown="false"
-        android:datePickerMode="spinner" />
+        android:datePickerMode="spinner" /> -->
 
     <Button
         android:id="@+id/btn_submitDate"

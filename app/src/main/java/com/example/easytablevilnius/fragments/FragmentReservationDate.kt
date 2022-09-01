@@ -1,24 +1,20 @@
-package com.example.easytable.fragments
+package com.example.easytablevilnius.fragments
 
 import android.app.DatePickerDialog
 import android.app.Dialog
 import android.icu.util.Calendar
 import android.os.Build
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.DatePicker
-import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResult
-import androidx.fragment.app.setFragmentResultListener
-import com.example.easytable.R
 
-import com.example.easytable.databinding.FragmentReservationDateBinding
+import com.example.easytablevilnius.databinding.FragmentReservationDateBinding
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -59,13 +55,12 @@ class FragmentReservationDate : DialogFragment(), DatePickerDialog.OnDateSetList
         super.onStart()
 
        binding?.btnSubmitDate?.setOnClickListener {
-           this.activity?.supportFragmentManager?.beginTransaction()
+          /* this.activity?.supportFragmentManager?.beginTransaction()
                ?.replace(R.id.change, frgTime)
                ?.addToBackStack("time")
-               ?.commit()
+               ?.commit()*/
        }
     }
-
 
 
     @RequiresApi(Build.VERSION_CODES.N)

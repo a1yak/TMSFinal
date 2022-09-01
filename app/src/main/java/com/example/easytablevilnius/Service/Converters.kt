@@ -1,4 +1,4 @@
-package com.example.easytable.Service
+package com.example.easytablevilnius.Service
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
